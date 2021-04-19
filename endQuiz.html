@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations!</title>
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+          <h1 id="finalScore"></h1>
+          <form>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="username"
+            />
+            <button
+              type="submit"
+              class="btn"
+              id="saveScoreBtn"
+              onclick="saveHighScore(event)"
+              disabled
+            >
+              Save
+            </button>
+          </form>
+          <a class="btn" href="History.html">Take Quiz Again - History</a>
+          <a class="btn" href="Geography.html">Take Quiz Again - Geography</a>
+          <a class="btn" href="Science.html">Take Quiz Again - Science</a>
+          <a class="btn" href="index.html">Go Home</a>
+        </div>
+      </div>
+      <script src="endQuiz.js"></script> 
+</body>
+</html>
