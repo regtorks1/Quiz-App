@@ -11,7 +11,7 @@ The languages used in this project are:
 <li>Javascript</li><ul>
 <h3>Resources</h3>
 <ul><li>Udemy.com: Build a quiz app with HTML, CSS and Javascript </li>
-<li>Stickoverflow.com for more answers to questions</li>
+<li>Stackoverflow.com for more answers to questions</li>
 <h4>Conclusion</h4>
 This was a helpful project in which one can be able to bulid a quiz app.
 
